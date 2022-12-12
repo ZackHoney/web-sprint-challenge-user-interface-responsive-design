@@ -4,9 +4,9 @@
 
 <head>
 	<meta charset="utf-8">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sprint Challenge - Home</title>
-
+	<link rel="stylesheet" href="css/index.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
 </head>
@@ -15,39 +15,38 @@
 	<div>
 		<!-- header -->
 		<header>
+			<h1>BLOOMTECH BAR AND GRILL</h1>
 			<div>
-				BLOOMTECH BAR AND GRILL
-
 				<!-- nav -->
-				Menu
-				Reservations
-				Special Offers
-				Contact
+				<nav>
+					<a href="#/menu.html" class="menu">Menu</a>
+					<a href="#" class="reservations">Reservations</a>
+					<a href="#" class="special-offers">Special Offers</a>
+					<a href="#contact" class="contact">Contact</a>
+				</nav>
+				<div class="social">
+					<i class="fa-brands fa-facebook"></i>
+					<i class="fa-brands fa-twitter"></i>
+					<i class="fa-brands fa-instagram"></i>
+				</div>
 			</div>
 		</header>
 
+
 		<!-- gallery section -->
 		<section class="gallery">
+			<h2>OUR FOOD</h2>
+
 			<div>
-				<h2>OUR FOOD</h2>
-
-				img/food-avocadotoast.jpg
-
-				img/food-burger.jpg
-
-				img/food-poutine.jpg
-
-				img/food-ribs.jpg
-
-				img/food-sandwich.jpg
-
-				img/food-sausage.jpg
-
-				img/food-steak.jpg
-
-				img/food-tacos.jpg
-
-				img/food-wings.jpg
+				<img src="img/food-avocadotoast.jpg" alt="Toast with avocado on it">
+				<img src="img/food-burger.jpg" alt="Bowl of soup with a burger">
+				<img src="img/food-poutine.jpg" alt="Tray with Poutine">
+				<img src="img/food-ribs.jpg" alt="Plate of ribs">
+				<img src="img/food-sandwich.jpg" alt="Plate with a sandwich">
+				<img src="img/food-sausage.jpg" alt="Plate with a large sausage on it">
+				<img src="img/food-steak.jpg" alt="Plate with a steak and garnish">
+				<img src="img/food-tacos.jpg" alt="Plate with three tacos at a bar">
+				<img src="img/food-wings.jpg" alt="Plate of wings with a beverage">
 			</div>
 		</section>
 
@@ -82,14 +81,13 @@
 		<div class="spacer"></div>
 
 		<!-- contact section -->
-		<section class="contact">
+		<section id="contact" class="contact-us">
 			<div class="contact-container">
 				<h2>CONTACT US</h2>
 
 				<div class="info">
 					<div class="address">
 						<h3>Address</h3>
-
 						<address>
 							<p>100 Main St</p>
 							<p>San Francisco, CA</p>
@@ -98,7 +96,6 @@
 
 					<div class="hours">
 						<h3>Hours</h3>
-
 						<div>
 							<p>Sunday to Thursday:</p>
 							<p>12:00p - 12:00a</p>
@@ -125,17 +122,21 @@
 		<!-- footer -->
 		<footer>
 			<!-- email signup -->
-			Join our mailing list!
-			Sign Up
+			<h3>Join our mailing list!</h3>
+			<input type="email" name="email" placeholder="Email Adress" id=""><button>Sign Up</button>
 			<!-- nav -->
-			Menu
-			Reservations
-			Special Offers
-			Contact
+			<div>
+				<nav>
+					<a href="/menu.html" class="menu">Menu</a>
+					<a href="#" class="reservations">Reservations</a>
+					<a href="#" class="special-offers">Special Offers</a>
+					<a href="#contact" class="contact">Contact</a>
+				</nav>
+			</div>
 			<!-- copyright -->
-			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
+			<p>©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>
 		</footer>
-	</div>
+
 </body>
 
 </html>
