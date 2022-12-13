@@ -23,7 +23,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -75,6 +75,9 @@ h1, h2, h3, h4, h5, h6, p, a, i {
 
 h1 {
     font-size: 7.5rem;
+    width:100%;
+    background-color: rgba(0, 4, 17, .8);
+
 }
 
 h2 {
@@ -97,22 +100,39 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: transparent, rgb(0, 4, 17, .8);
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(0, 4, 17, .8);
 }
 
 nav {
     width: 100%;
-    display:flex;
-    justify-content: space-evenly;
+    background-color: rgba(0, 4, 17, .8);
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+nav .links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.socials {
+.social {
+    width: 70%;
     display: flex;
-    justify-content: space-betweenss;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    border: 1px solid red;
+    font-size: 3rem;
+    padding:1%;
+    margin: 1%;
 }
+
 /* spacers */
 .spacer {
     width: 100%;
